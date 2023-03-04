@@ -5,10 +5,10 @@ public class SingletonDemo {
 	public static void main(String[] args) {
 
 		System.out.println("Demo for Singleton");
-		MySingleton o1 = MySingleton.getInstance();
-		MySingleton o2 = MySingleton.getInstance();
-		MySingleton o3 = MySingleton.getInstance();
-		MySingleton o4 = MySingleton.getInstance();
+		Singleton o1 = Singleton.getInstance();
+		Singleton o2 = Singleton.getInstance();
+		Singleton o3 = Singleton.getInstance();
+		Singleton o4 = Singleton.getInstance();
 		
 		System.out.println(o1.hashCode());
 		System.out.println(o2.hashCode());
